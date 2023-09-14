@@ -1,0 +1,342 @@
+@font-face {
+    src: url("DeliCake.ttf");
+    font-family: Deli Cake;
+}
+
+* {
+    margin: 0;
+    font-family: Deli Cake;
+    border: border-box;
+}
+
+.img1 {
+    width: 80px;
+}
+
+.panel {
+    height: 80px;
+    background-color: rgb(201, 225, 226);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.panel-ops {
+    display: flex;
+    color: black;
+
+}
+
+.panel-ops p {
+    padding: 4px;
+    font-size: 1.5rem;
+    margin: 5px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+
+.hero-section {
+    background-image: url("main1.png");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+    margin: 20px;
+    color: rgb(247, 176, 83);
+    text-shadow: 5px 0px 10px black;
+}
+
+.shop-section {
+    display: flex;
+
+    align-items: center;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.box-img {
+    width: 550px;
+    height: 500px;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.mid-section {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sub-title {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: #A50202;
+
+}
+
+.sub-heaad {
+    font-family: Deli Cake;
+    font-size: 90px;
+    color: #18293D;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+.ser-img {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.serv {
+    width: 200px;
+    padding-left: 40px;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+/* .ser-main{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.avatar {
+    width: 100px;
+    height: 200px;
+}
+
+.card {
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px auto;
+    width: 400px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom: 7px solid #d8cefe;
+    background-color: #ddebf8;
+    color: #2b2839;
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    align-items: center;
+    height: 200px;
+
+
+}
+
+.revewies {
+    background-image: url("cakbac.webp");
+    background-size: cover;
+    opacity: 0.8;
+    padding: 0px;
+}
+
+.box-img {
+    background-size: cover;
+}
+
+.newbac {
+    background-color: linear-gradient(#0a2035, #b16382);
+}
+
+/* hero section  */
+.carousel {
+    position: relative;
+    max-width: 1500px;
+}
+
+.crousel-item {
+    display: none;
+
+}
+
+.crousel-item-visible {
+    display: block;
+    animation: fadevisiblity 0.5s;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 1500px;
+    height: 100vh;
+}
+
+.crousel-action {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.crousel-action button {
+    border-radius: 50%;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.crousel-action #crousel-button-pre {
+    margin-left: 20px;
+}
+
+.crousel-action #crousel-button-next {
+    margin-right: 20px;
+}
+
+@keyframes fadevisiblity {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+}
+
+
+
+
+.foot-panel2 {
+    padding-bottom: 0px;
+    background-image: url("layered-waves-haikei-removebg-preview.png");
+    height: 700px;
+    background-size: cover;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 100px;
+}
+
+ul {
+    /* margin-top: 20px; */
+    padding-bottom: 0px;
+    padding: 50px;
+    font-size: 1.85rem;
+    font-family: 'Varela Round', sans-serif;
+
+
+}
+
+ul a {
+    display: block;
+    font-size: 1.5rem;
+    /* margin-top: 10px; */
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+/* customer share  */
+
+.share {
+    height: 500px;
+    display: flex;
+    /* margin: 30px; */
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid black; */
+    padding: 0px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.happiness-box {
+    height: 400px;
+    width: 220px;
+    border: 1px solid rgb(78, 82, 81);
+    padding-top: 5px;
+    padding-top: 5px;
+    font-family: 'Varela Round', sans-serif;
+    background-color: white;
+
+
+}
+
+.happy-head {
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.happiness-img{
+    height: 300px;
+    background-size: cover;
+}
+.social{
+    display: flex;
+}
+.social img{
+    width: 20px;
+    height: 20px;
+}
+.social a{
+    margin: 3px;
+}
+.foot-panel4{
+    /* background-color: #0f1111; */
+    color: black;
+    font-size:0.7rem;
+text-align: center;
+height: 80px;
+
+
+}
+.pages{
+    padding-top: 15px;
+}
+.copyright{
+    
+    padding-top: 5px;
+}
+.pages a{
+    font-family: 'Varela Round', sans-serif;
+
+}
+.uper{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+}
+.logo{
+    background-image: url("Untitled_design-removebg-preview.png");
+    background-size: cover;
+    height: 100px;
+width: 100px;
+}

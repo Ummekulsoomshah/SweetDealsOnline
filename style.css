@@ -39,7 +39,7 @@
 
 
 .hero-section {
-    background-image: url("main1.png");
+    background-image: url("images/main1.png");
     background-size: cover;
     background-position: center;
     height: 80vh;
@@ -149,7 +149,7 @@
 }
 
 .revewies {
-    background-image: url("cakbac.webp");
+    background-image: url("images/cakbac.webp");
     background-size: cover;
     opacity: 0.8;
     padding: 0px;
@@ -231,7 +231,7 @@ img {
 
 .foot-panel2 {
     padding-bottom: 0px;
-    background-image: url("layered-waves-haikei-removebg-preview.png");
+    background-image: url("images//layered-waves-haikei-removebg-preview.png");
     height: 700px;
     background-size: cover;
     color: black;
@@ -335,7 +335,7 @@ height: 80px;
   align-items: center;
 }
 .logo{
-    background-image: url("Untitled_design-removebg-preview.png");
+    background-image: url("images/untitled-removebg-preview.png");
     background-size: cover;
     height: 100px;
 width: 100px;
